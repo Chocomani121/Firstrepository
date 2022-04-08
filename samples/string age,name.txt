@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class firstproject {
+    public static void main(String[] args) {
+
+        int age;
+        String name;
+
+        Scanner nameScanner = new Scanner(System.in);
+
+        System.out.println("what is your name?");
+        name = nameScanner.nextLine();
+
+        System.out.println("how old are you");
+        age = nameScanner.nextInt();
+
+        nameScanner.close();
+
+        System.out.println("My name is " + name + " and age " + age);
+    }
+}
